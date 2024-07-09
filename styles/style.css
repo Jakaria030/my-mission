@@ -11,3 +11,52 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 /* common styles end */
+
+/* header > banner styles start */
+#header{
+    max-width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-image: url("../images/hero-bg.png");
+}
+.banner-container{
+    max-width: 998px;
+    height: 581px;
+    margin: 26px auto 45px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin: 24px 0;
+}
+.banner-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+.dark-btn{
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
+    text-decoration: none;
+    padding: 21px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 32px;
+    cursor: pointer;
+}
+/* header > banner styles end */
