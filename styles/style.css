@@ -148,7 +148,7 @@ body{
 }
 /* main > inspiration section styles end */
 
-/* current target section styles start */
+/* main > current target section styles start */
 .current-target-section-container{
     width: 100%;
     height: 460px;
@@ -189,9 +189,9 @@ body{
 .js-skill{
     background-color: rgba(255, 223, 0, 0.05);
 }
-/* current target section styles end */
+/* main > current target section styles end */
 
-/* next target section styles start */
+/* main > next target section styles start */
 .next-target-section-container{
     width: 100%;
     height: 866px;
@@ -230,9 +230,9 @@ body{
     display: inline-block;
     margin-top: 24px;
 }
-/* next target section styles end */
+/* main > next target section styles end */
 
-/* support section styles start */
+/* main > support section styles start */
 .support-section-container{
     width: 100%;
     height: 313px;
@@ -272,4 +272,29 @@ body{
     text-align: center;
     cursor: pointer;
 }
-/* support section styles end */
+/* main > support section styles end */
+
+/* footer section styles start */
+#footer{
+    max-width: 1440px;
+    padding: 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icons a{
+    margin-left: 15px;
+    display: inline-block;
+}
+.footer-icons a img{
+    width: 32px;
+    height: 32px;
+}
+.footer-icons a:first-child{
+    margin-left: none;
+}
+/* footer section styles end */
