@@ -44,24 +44,35 @@ body{
 }
 /* common styles end */
 
-/* header > banner styles start */
+/* header, navbar, header > banner section styles start */
 #header{
     max-width: 1440px;
-    height: 652px;
     margin: 0 auto;
+}
+#nav{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-container{
+    width: 100%;
+    height: 652px;
     background: url("../images/hero-bg.png") no-repeat center;
     background-size: cover;
 }
-.banner-container{
+.banner-content{
     max-width: 998px;
-    height: 581px;
+    height: 582px;
     margin: 26px auto 45px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.banner-container h1{
+.banner-content h1{
     color: rgb(13, 19, 33);
     font-size: 48px;
     font-weight: 800;
@@ -83,7 +94,7 @@ body{
     margin-top: 32px;
     cursor: pointer;
 }
-/* header > banner styles end */
+/* header, navbar, header > banner section styles end */
 
 /* main, main > development section styles start */
 #main{
